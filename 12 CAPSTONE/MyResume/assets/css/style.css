@@ -1,0 +1,49 @@
+body > div.container.col-xxl-8.px-4.px-5 > div > div:nth-child(2){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skilled-list{
+	list-style-type: none;
+}
+
+/* css for gradient starts */
+body {
+	background: linear-gradient(-45deg, #ee7752, #a48c96, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.d-flex {
+    display: flex!important;
+    justify-content: center;
+}
+
+
+.square {
+	height:500px;
+	widtH: 300px;
+	border: 1px solid black;
+	position: relative;
+	background-image: url("http://placekitten.com/g/300/300");
+  }
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* css for gradient ends */
+
+
+
+
+
